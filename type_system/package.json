@@ -1,0 +1,18 @@
+{
+  "name": "type_system",
+  "version": "1.0.0",
+  "description": "Everyone should exercise",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/index.js",
+    "start1": "tsc && node ./dist/lecture_exercises/1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lyubosumaz",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/typescript": "^2.0.0",
+    "typescript": "^4.3.5"
+  }
+}
