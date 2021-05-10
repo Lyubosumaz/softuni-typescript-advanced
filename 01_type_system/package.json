@@ -13,6 +13,7 @@
   "author": "Lyubosumaz",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^15.12.2",
     "@types/typescript": "^2.0.0",
     "typescript": "^4.3.5"
   }
