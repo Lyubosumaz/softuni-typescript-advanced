@@ -1,8 +1,7 @@
 const sortArray = (arr: number[], op: 'asc' | 'desc' = 'asc') => {
     return arr.sort((a, b) => {
-        if (op === 'asc') return a - b;
-
-        return b - a;
+        if (op === 'desc') return b - a;
+        return a - b;
     });
 }
 
