@@ -1,5 +1,5 @@
 {
-  "name": "01_type_system",
+  "name": "02_object_oriented_programming",
   "version": "1.0.0",
   "description": "Everyone should exercise",
   "main": "index.js",
@@ -7,17 +7,13 @@
     "build": "tsc",
     "start": "tsc && node ./dist/index.js",
     "start-1": "npm run build && node ./dist/lecture_exercises/1.js",
-    "start-2": "npm run build && node ./dist/lecture_exercises/2.js",
-    "start-3": "npm run build && node ./dist/lecture_exercises/3.js",
-    "start-4": "npm run build && node ./dist/lecture_exercises/4.js",
-    "start-5": "npm run build && node ./dist/lecture_exercises/5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lyubosumaz",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^15.12.2",
     "@types/typescript": "^2.0.0",
+    "@types/whatwg-fetch": "^0.0.33,",
     "typescript": "^4.3.5"
   }
 }
