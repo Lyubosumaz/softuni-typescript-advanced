@@ -72,3 +72,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
 abstract class Test {
     abstract test(): void;
 }
+
+// const [name1, name2]: string[] = 'Pesho Gosho'.split(' ');
+
+function doSomething([name1, name2]: [string, number]): void { }
+doSomething(['1', 2]);
+
