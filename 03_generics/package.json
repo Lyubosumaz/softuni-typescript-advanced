@@ -14,6 +14,7 @@
     "start-3": "npm run build && node ./dist/lecture_exercises/3.js",
     "start-4": "npm run build && node ./dist/lecture_exercises/4.js",
     "start-5": "npm run build && node ./dist/lecture_exercises/5.js",
+    "start-6II": "npm run build && node ./dist/lecture_exercises/6II.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
