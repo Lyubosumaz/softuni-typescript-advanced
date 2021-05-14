@@ -1,11 +1,11 @@
 class Box {
     constructor(public arg: any) { }
-    toString() { return `${this.arg} is of type ${typeof this.arg}`; }
+    toString(): string { return `${this.arg} is of type ${typeof this.arg}`; }
 }
 
-let box1 = new Box(['test']);
-let box2 = new Box(20);
-let box3 = new Box('Hello');
+const box1 = new Box(['test']);
+const box2 = new Box(20);
+const box3 = new Box('Hello');
 
 console.log(box1.toString());
 console.log(box2.toString());
