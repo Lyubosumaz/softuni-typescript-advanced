@@ -1,4 +1,4 @@
-class Tuple {
+export class Tuple {
     constructor(public argOne: any, public argTwo: any) { }
     toString(): string { return `${this.argOne} -> ${this.argTwo}`; }
 }
