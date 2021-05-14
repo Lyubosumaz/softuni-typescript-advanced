@@ -1,6 +1,6 @@
-class CompareElements {
-    constructor(public arr: any[]) { }
-    compare(comparator: any): number { return this.arr.filter((el) => el === comparator).length; }
+class CompareElements<T> {
+    constructor(public arr: T[]) { }
+    compare(comparator: T): number { return this.arr.filter((el) => el === comparator).length; }
 }
 
 const c1 = new CompareElements(['a', 'b', 'ab', 'abc', 'cba', 'b']);

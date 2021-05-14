@@ -1,5 +1,5 @@
-export class Tuple {
-    constructor(public argOne: any, public argTwo: any) { }
+export class Tuple<T, C> {
+    constructor(public argOne: T, public argTwo: C) { }
     toString(): string { return `${this.argOne} -> ${this.argTwo}`; }
 }
 

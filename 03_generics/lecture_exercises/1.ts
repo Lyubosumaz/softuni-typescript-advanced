@@ -1,5 +1,5 @@
-class Box {
-    constructor(public arg: any) { }
+class Box<T> {
+    constructor(public arg: T) { }
     toString(): string { return `${this.arg} is of type ${typeof this.arg}`; }
 }
 
