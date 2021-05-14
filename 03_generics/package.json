@@ -10,6 +10,7 @@
     "watch": "tsc --watch",
     "start": "npm run build && node ./dist/index.js",
     "start-1": "npm run build && node ./dist/lecture_exercises/1.js",
+    "start-2": "npm run build && node ./dist/lecture_exercises/2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
