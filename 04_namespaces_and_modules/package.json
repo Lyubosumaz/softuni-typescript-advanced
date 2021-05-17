@@ -8,11 +8,12 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "start": "npm run build && node ./dist/index.js",
-    "start-1": "npm run build && node ./dist/lecture_exercises/1.js",
+    "start-1": "npm run build && node ./dist/exercises/1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "open": "^8.4.0"
+  },
   "devDependencies": {
     "@types/node": "^16.11.6",
     "@types/typescript": "^2.0.0",
